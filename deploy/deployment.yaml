@@ -16,6 +16,7 @@ spec:
       containers:
       - name: myapp
         image: ttorii0609/test
+        imagePullPolicy: Always
         livenessProbe:
           httpGet:
             path: /
